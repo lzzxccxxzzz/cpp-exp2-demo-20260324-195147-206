@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Local diagnostics and Office temp files
+gcm-diagnose.log
+~$*.doc
+~$*.docx
