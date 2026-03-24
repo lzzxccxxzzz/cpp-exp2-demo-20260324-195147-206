@@ -1,0 +1,183 @@
+﻿Diagnose log at 2026-03-24T11:28:45Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+windir=C:\WINDOWS
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+TMP=C:\Users\qq139\AppData\Local\Temp
+CODEX_INTERNAL_ORIGINATOR_OVERRIDE=Codex Desktop
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PUBLIC=C:\Users\Public
+RUST_LOG=warn
+PROCESSOR_REVISION=aa04
+TEMP=C:\Users\qq139\AppData\Local\Temp
+USERPROFILE=C:\Users\qq139
+LOGONSERVER=\\LAPD
+TERM=xterm-256color
+USERNAME=qq139
+SHELL=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_41552_BRJHJFMWPXTXKWLW
+CODEX_THREAD_ID=019d1f8e-40a5-73e2-8cd6-e2a90d63a389
+PLINK_PROTOCOL=ssh
+LEVEL_ZERO_V1_SDK_PATH=C:\Program Files\LevelZeroSDK\1.26.0\
+OneDrive=C:\Users\qq139\OneDrive
+PROCESSOR_ARCHITECTURE=AMD64
+ZSH_TMUX_AUTOSTARTED=true
+CommonProgramFiles=C:\Program Files\Common Files
+SystemRoot=C:\WINDOWS
+OculusBase=C:\Program Files\Oculus\
+CODEX_SHELL=1
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+ZSH_TMUX_AUTOSTART=false
+HOMEPATH=\Users\qq139
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\qq139\bin;C:\Users\qq139\.codex\tmp\arg0\codex-arg09LW26o;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\CMake\bin;C:\Users\qq139\.cargo\bin;C:\Users\qq139\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\qq139\AppData\Local\Programs\Python\Python312\;C:\Users\qq139\AppData\Local\Microsoft\WindowsApps;C:\Users\qq139\AppData\Local\Programs\Microsoft VS Code\bin;D:\jdk-23_windows-x64_bin\jdk-23\bin;C:\Users\qq139\AppData\Local\GitHubDesktop\bin;C:\Users\qq139\AppData\Local\Programs\Antigravity\bin;C:\Users\qq139\AppData\Local\Microsoft\WinGet\Packages\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\qq139\AppData\Roaming\npm;C:\Users\qq139\AppData\Local\Microsoft\WinGet\Packages\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\ripgrep-15.1.0-x86_64-pc-windows-msvc;C:\Users\qq139\.dotnet\tools;C:\Users\qq139\go\bin;C:\Users\qq139\AppData\Local\OpenAI\Codex\bin;C:\Program Files\WindowsApps\OpenAI.Codex_26.313.5234.0_x64__2p2nqsd0c76g0\app\resources
+__COMPAT_LAYER=DetectorsAppHealth
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+DISABLE_AUTO_UPDATE=true
+GIT_TRACE2_PARENT_SID=ca1607ae-f99e-49f1-8d85-b407db2e7e01
+NUMBER_OF_PROCESSORS=18
+OS=Windows_NT
+ZES_ENABLE_SYSMAN=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+USERDOMAIN_ROAMINGPROFILE=LAPD
+HOME=C:\Users\qq139
+PSModulePath=C:\Users\qq139\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+JAVA_HOME=C:\Program Files\Java\jdk-21
+PROMPT=$P$G
+TMPDIR=C:\Users\qq139\AppData\Local\Temp
+APPDATA=C:\Users\qq139\AppData\Roaming
+USERDOMAIN=LAPD
+COMPUTERNAME=LAPD
+LOCALAPPDATA=C:\Users\qq139\AppData\Local
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PROCESSOR_LEVEL=6
+GOPATH=C:\Users\qq139\go
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\qq139\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\qq139\AppData\Local\Temp\d53f4b55922e2e744a507852'... OK
+Reading from temporary file 'C:\Users\qq139\AppData\Local\Temp\d53f4b55922e2e744a507852'... OK
+Deleting temporary file 'C:\Users\qq139\AppData\Local\Temp\d53f4b55922e2e744a507852'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\qq139
+UserDataDirectoryPath: C:\Users\qq139\.gcm
+GetCurrentDirectory(): C:\code\cpp_exp2
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:53130/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.2'
+Locating current repository...Not inside a Git repository.
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/qq139/.gitconfig	filter.lfs.required=true
+file:C:/Users/qq139/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/qq139/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/qq139/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/qq139/.gitconfig	user.name=lzzxccxxzzz
+file:C:/Users/qq139/.gitconfig	user.email=81020973+lzzxccxxzzz@users.noreply.github.com
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\qq139\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\qq139\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
